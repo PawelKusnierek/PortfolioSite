@@ -1,0 +1,89 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.noPaddingOrMargin {
+    padding: 0;
+    margin: 0;
+}
+
+.topHeader {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    background-color: #edefe8;
+}
+
+.nameJob {
+    display: inline-block;
+    padding: 20px 0 0 30px;
+    float: left;
+    width: 30%;
+}
+
+.headerName {
+    display: inline-block;
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+}
+
+.headerJob {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    font-size: 14px;
+    color: #61635c;
+    padding: 0 0 20px 0;
+}
+
+.contactLinks {
+    position: relative;
+    padding: 20px 0 0 0;
+    display: inline-block;
+    width: 40%;
+}
+
+.headerButtonContainer {
+    position: relative;
+    display: flex;
+    width: 30%;
+    float: right;
+}
+
+i {
+vertical-align: center;
+    padding: 10% 0 0 0;
+}
+
+span {
+    display: block;
+    text-align: center;
+
+}
+
+.headerButton {
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    color: #61635c;
+    text-decoration: none;
+}
+
+button.headerButton:focus {
+    outline: 0;
+}
+
+a.button.hover {
+    color: #1a6b18;
+}
+
+
+
+
