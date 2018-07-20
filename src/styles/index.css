@@ -18,11 +18,11 @@ body {
     background-color: #edefe8;
 }
 
-.nameJob {
+.nameJobWrapper {
     display: inline-block;
     padding: 20px 0 0 40px;
     float: left;
-    width: 40%;
+    width: 37%;
 }
 
 .headerName {
@@ -84,7 +84,7 @@ i.fab.left:hover {
 .spacer {
     position: relative;
     display: flex;
-    width: 20%;
+    width: 23%;
 }
 
 .headerButtonContainer {
