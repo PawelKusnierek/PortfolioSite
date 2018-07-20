@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 
     .topHeader {
         height: 150px;
@@ -40,5 +40,9 @@
 
     .headerButtonContainer {
         width: 35%;
+    }
+
+    i.fas {
+        padding: 20px 0 0 45%;
     }
 }
