@@ -47,11 +47,11 @@
     width: 100%;
     color: var(--header-typing-color);
     text-decoration: none;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 i.fab {
-    margin: 30% 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 i.fab.right {
