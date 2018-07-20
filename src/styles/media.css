@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1000px) {
+
+    .topHeader {
+        height: 150px;
+    }
+
+    .bioHeader {
+        margin: 150px 0 0 0;
+    }
+
+    .nameJobWrapper {
+        width: 35%;
+        padding: 50px 0 0 40px;
+    }
+
+    .contactLinks {
+        width: 25%;
+    }
+
+    .spacer {
+        width: 4%;
+    }
+
+    .contentWrapper {
+        width: 70%;
+        margin: 0 15% 0 15%;
+    }
+
+    .contactLinks {
+        margin: 35px 0 0 0;
+    }
+
+    .headerButtonContainer {
+        margin: 35px 0 0 0;
+    }
+
+    .headerButton {
+        font-size: 22px;
+    }
+
+    .headerButtonContainer {
+
+        width: 35%;
+
+    }
+}
