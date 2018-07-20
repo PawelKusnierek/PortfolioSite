@@ -5,7 +5,7 @@
 
 .topHeader {
     display: flex;
-    height: 30%;
+    height: 15%;
     width: 100%;
     background-color: var(--header-background-color);
 }
@@ -14,7 +14,7 @@
     display: inline-block;
     padding: 20px 0 0 40px;
     float: left;
-    width: 37%;
+    width: 42%;
 }
 
 .headerName {
@@ -35,12 +35,12 @@
 .contactLinks {
     position: relative;
     display: flex;
-    width: 15%;
+    width: 14%;
 }
 
 .socialIcon {
     flex: 1;
-    height: 100%;
+    height: 70%;
     width: 100%;
     color: var(--header-typing-color);
     text-decoration: none;
@@ -53,6 +53,11 @@ i.fab {
 
 i.fab.right {
     float: right;
+    height: 100%;
+}
+
+i.fab.left {
+    height: 100%;
 }
 
 i.fab.centre {
@@ -65,18 +70,18 @@ i.fab.right:hover {
     color: #3B5998;
 }
 
-i.fab.centre:hover {
-    color: #333
-}
-
 i.fab.left:hover {
     color: #0077B5;
+}
+
+i.fab.centre:hover {
+    color: #333
 }
 
 .spacer {
     position: relative;
     display: flex;
-    width: 23%;
+    width: 19%;
 }
 
 .headerButtonContainer {
