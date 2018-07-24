@@ -4,7 +4,8 @@
   }
 
   .bioHeader {
-    margin: 150px 0 0 0;
+    margin: 150px auto 0 auto;
+    width: 70%;
   }
 
   .nameJobWrapper {
@@ -39,6 +40,11 @@
 
   i.fas {
     padding: 20px 0 0 45%;
+  }
+
+  .techStack, .other, .resources {
+    width: 70%;
+    margin: 0 auto 0 auto;
   }
 }
 
