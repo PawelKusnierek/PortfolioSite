@@ -1,5 +1,4 @@
 .bioHeader {
-  margin: 100px 0 0 0;
   background: #485563;
   background: -webkit-linear-gradient(to right, #29323c, #485563);
   background: linear-gradient(to right, #29323c, #485563);
@@ -7,9 +6,9 @@
   flex: 1;
   flex-direction: column;
   height: 120px;
-  width: 100%;
+  width: 40%;
+  margin: 100px auto 0 auto;
 }
-
 .bioHeader h1 {
   font-family: Nunito, sans-serif;
   width: 100%;
@@ -19,7 +18,8 @@
   align-items: center;
   text-align: center;
   color: #edefe8;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 300;
   line-height: 1.2;
   margin: 35px 0 25px 0;
 }
@@ -47,14 +47,15 @@ section .content p::first-letter {
 }
 
 .techStack {
-  background: #c94b4b;
-  background: -webkit-linear-gradient(to bottom, #4b134f, #c94b4b);
-  background: linear-gradient(to bottom, #4b134f, #8e3636);
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
   display: flex;
   flex: 1;
   flex-direction: column;
   height: 120px;
-  width: 100%;
+  width: 40%;
+  margin: 0 auto 0 auto;
 }
 .techStack h1 {
   margin: 35px 0 25px 0;
@@ -66,7 +67,8 @@ section .content p::first-letter {
   align-items: center;
   text-align: center;
   color: #edefe8;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 300;
   line-height: 1.2;
 }
 
@@ -79,16 +81,16 @@ section .content p::first-letter {
 }
 
 .other {
-  background: #3a6186;
-  background: -webkit-linear-gradient(to left, #5f182f, #3a6186);
-  background: linear-gradient(to left, #56172b, #3a6186);
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
   display: flex;
   flex: 1;
   flex-direction: column;
   height: 120px;
-  width: 100%;
+  width: 40%;
+  margin: 0 auto 0 auto;
 }
-
 .other h1 {
   margin: 35px 0 25px 0;
   font-family: Nunito, sans-serif;
@@ -99,7 +101,8 @@ section .content p::first-letter {
   align-items: center;
   text-align: center;
   color: #edefe8;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 300;
   line-height: 1.2;
 }
 
@@ -112,16 +115,16 @@ section .content p::first-letter {
 }
 
 .resources {
-  background: #0f0c29;
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
   display: flex;
   flex: 1;
   flex-direction: column;
   height: 120px;
-  width: 100%;
+  width: 40%;
+  margin: 0 auto 0 auto;
 }
-
 .resources h1 {
   margin: 40px 0 23px 0;
   font-family: Nunito, sans-serif;
@@ -132,7 +135,8 @@ section .content p::first-letter {
   align-items: center;
   text-align: center;
   color: #edefe8;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 300;
   line-height: 1.2;
 }
 
