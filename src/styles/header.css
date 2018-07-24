@@ -1,120 +1,111 @@
-:root {
-    --header-background-color: #edefe8;
-    --header-typing-color: #61635c;
-}
-
 .topHeader {
-    position: fixed;
-    top: 0;
-    display: flex;
-    height: 100px;
-    width: 100%;
-    background-color: var(--header-background-color);
-    z-index: 100000;
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #edefe8;
+  z-index: 100000;
 }
 
 .nameJobWrapper {
-    display: inline-block;
-    padding: 20px 0 0 40px;
-    float: left;
-    width: 42%;
+  display: inline-block;
+  padding: 20px 0 0 40px;
+  float: left;
+  width: 42%;
 }
 
 .headerName {
-    display: inline-block;
-    margin: 0;
-    font-family: Nunito, sans-serif;
-    font-size: 20px;
+  display: inline-block;
+  margin: 0;
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
 }
 
 .headerJob {
-    margin: 0;
-    font-family: Nunito, sans-serif;
-    font-size: 14px;
-    color: var(--header-typing-color);
-    padding: 0 0 20px 0;
+  margin: 0;
+  font-family: Nunito, sans-serif;
+  font-size: 14px;
+  color: #61635c;
+  padding: 0 0 20px 0;
 }
 
 .contactLinks {
-    position: relative;
-    display: flex;
-    width: 14%;
+  position: relative;
+  display: flex;
+  width: 14%;
 }
 
 .socialIcon {
-    flex: 1;
-    height: 70%;
-    width: 100%;
-    color: var(--header-typing-color);
-    text-decoration: none;
-    font-size: 30px;
+  flex: 1;
+  height: 70%;
+  width: 100%;
+  color: #61635c;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 i.fab {
-    margin: 30px 0 0 0;
+  margin: 30px 0 0 0;
 }
-
 i.fab.right {
-    float: right;
-    height: 100%;
+  float: right;
+  height: 100%;
 }
-
 i.fab.left {
-    height: 100%;
+  height: 100%;
 }
-
 i.fab.centre {
-    width: 100%;
-    height: 100%;
-    text-align: center
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
-
 i.fab.right:hover {
-    color: #3B5998;
+  color: #3B5998;
 }
-
 i.fab.left:hover {
-    color: #0077B5;
+  color: #0077B5;
 }
-
 i.fab.centre:hover {
-    color: #333
+  color: #c9510c;
 }
 
 .spacer {
-    position: relative;
-    display: flex;
-    width: 19%;
+  position: relative;
+  display: flex;
+  width: 19%;
 }
 
 .headerButtonContainer {
-    position: relative;
-    display: flex;
-    width: 25%;
-    float: right;
+  position: relative;
+  display: flex;
+  width: 25%;
+  float: right;
 }
 
 .headerButton {
-    flex: 1;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    font-family: Nunito, sans-serif;
-    font-size: 16px;
-    color: var(--header-typing-color);
-    text-decoration: none;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  color: #61635c;
+  text-decoration: none;
 }
 
 i.fas {
-    vertical-align: center;
-    padding: 30px 0 0 45%;
+  vertical-align: center;
+  padding: 30px 0 0 45%;
 }
 
 span.headerSpan {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 a.headerButton:hover {
-    background-color: #e1e3dc;
+  background-color: #e1e3dc;
 }
+
+/*# sourceMappingURL=header.css.map */
