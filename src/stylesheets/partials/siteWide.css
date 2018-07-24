@@ -4,11 +4,6 @@ html, body {
   height: 100%;
 }
 
-.noPaddingOrMargin {
-  padding: 0;
-  margin: 0;
-}
-
 .contentWrapper {
   width: 40%;
   border-radius: 5px;
@@ -16,4 +11,4 @@ html, body {
   display: flex;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=siteWide.csscss.map */
