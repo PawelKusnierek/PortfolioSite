@@ -1,3 +1,16 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contentWrapper {
+  width: 40%;
+  border-radius: 5px;
+  margin: 0 30% 0 30%;
+  display: flex;
+}
+
 .bioHeader {
   background: #485563;
   background: -webkit-linear-gradient(to right, #29323c, #485563);
@@ -256,19 +269,6 @@ span.headerSpan {
 
 a.headerButton:hover {
   background-color: #e1e3dc;
-}
-
-html, body {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.contentWrapper {
-  width: 40%;
-  border-radius: 5px;
-  margin: 0 30% 0 30%;
-  display: flex;
 }
 
 @media only screen and (max-width: 1200px) {
