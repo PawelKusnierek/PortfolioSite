@@ -1,4 +1,15 @@
 // The modules directory is reserved for Sass code that doesn't cause Sass to actually output CSS.
 // Things like mixin declarations, functions, and variables.
 
+// Define default font size
+@function calculateRem($size)
+  $remSize: $size / 16px
+  @return $remSize * 1rem
+
+@mixin font-size($size)
+  //Fallback for browsers which don't support rem
+  font-size: $size
+  //Rem size
+  font-size: calculateRem($size)
+
 

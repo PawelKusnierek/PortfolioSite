@@ -31,6 +31,7 @@ html, body {
   align-items: center;
   text-align: center;
   color: #edefe8;
+  font-size: 24px;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -50,6 +51,7 @@ html, body {
 .content p {
   font-family: Nunito, sans-serif;
   padding: 0 30px 30px 30px;
+  font-size: 16px;
   font-size: 1rem;
   line-height: 1.2;
   font-weight: 300;
@@ -79,6 +81,7 @@ html, body {
   align-items: center;
   text-align: center;
   color: #edefe8;
+  font-size: 24px;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -113,6 +116,7 @@ html, body {
   align-items: center;
   text-align: center;
   color: #edefe8;
+  font-size: 24px;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -147,6 +151,7 @@ html, body {
   align-items: center;
   text-align: center;
   color: #edefe8;
+  font-size: 24px;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -182,6 +187,7 @@ html, body {
   margin: 0;
   font-family: Nunito, sans-serif;
   font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .headerJob {
@@ -205,6 +211,7 @@ html, body {
   color: #61635c;
   text-decoration: none;
   font-size: 30px;
+  font-size: 1.875rem;
 }
 
 i.fab {
@@ -304,6 +311,7 @@ a.headerButton:hover {
 
   .headerButton {
     font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .headerButtonContainer {
