@@ -1,3 +1,26 @@
+.content
+  background-color: $bio-background-text-color
+  p
+    &::first-letter
+      font-size: 150%
+    font-family: $fixed-font-family
+    padding: 0 30px 30px 30px
+    @include font-size(16px)
+    font-weight: 300
+
+.headerBio
+  margin: 35px 0 25px 0
+  font-family: $fixed-font-family
+  width: 100%
+  height: 50%
+  display: flex
+  justify-content: center
+  align-items: center
+  text-align: center
+  color: $bio-typing-color
+  @include font-size(24px)
+  font-weight: 300
+
 .bioHeader
   background: $bio-background-fallback
   background: $bio-background-fallback2
@@ -9,18 +32,7 @@
   width: 40%
   margin: 100px auto 0 auto
   h1
-    font-family: $fixed-font-family
-    width: 100%
-    height: 50%
-    display: flex
-    justify-content: center
-    align-items: center
-    text-align: center
-    color: $bio-typing-color
-    @include font-size(24px)
-    font-weight: 300
-    line-height: 1.2
-    margin: 35px 0 25px 0
+    @extend .headerBio
 
 .bioImage
   margin: $auto-margin
@@ -28,106 +40,31 @@
   width: 115px
   position: relative
 
-.content
-  background-color: $bio-background-text-color
-  p
-    &::first-letter
-      font-size: 150%
-    font-family: $fixed-font-family
-    padding: 0 30px 30px 30px
-    @include font-size(16px)
-    line-height: 1.2
-    font-weight: 300
-
 .techStack
-  background: $bio-background-fallback
-  background: $bio-background-fallback2
-  background: $bio-background
-  display: flex
-  flex: 1
-  flex-direction: column
-  height: 120px
-  width: 40%
+  @extend .bioHeader
   margin: $auto-margin
   h1
-    margin: 35px 0 25px 0
-    font-family: $fixed-font-family
-    width: 100%
-    height: 50%
-    display: flex
-    justify-content: center
-    align-items: center
-    text-align: center
-    color: $bio-typing-color
-    @include font-size(24px)
-    font-weight: 300
-    line-height: 1.2
+    @extend .headerBio
 
 .techStackImage
-  margin: $auto-margin
-  border-radius: 50%
+  @extend .bioImage
   width: 110px
-  display: block
-  position: relative
+
 
 .other
-  background: $bio-background-fallback
-  background: $bio-background-fallback2
-  background: $bio-background
-  display: flex
-  flex: 1
-  flex-direction: column
-  height: 120px
-  width: 40%
-  margin: $auto-margin
+  @extend .techStack
   h1
-    margin: 35px 0 25px 0
-    font-family: $fixed-font-family
-    width: 100%
-    height: 50%
-    display: flex
-    justify-content: center
-    align-items: center
-    text-align: center
-    color: $bio-typing-color
-    @include font-size(24px)
-    font-weight: 300
-    line-height: 1.2
+    @extend .headerBio
 
 .otherImage
-  margin: $auto-margin
-  border-radius: 50%
+  @extend .bioImage
   width: 110px
-  display: block
-  position: relative
 
 .resources
-  background: $bio-background-fallback
-  background: $bio-background-fallback2
-  background: $bio-background
-  display: flex
-  flex: 1
-  flex-direction: column
-  height: 120px
-  width: 40%
-  margin: $auto-margin
+  @extend .techStack
   h1
+    @extend .headerBio
     margin: 40px 0 23px 0
-    font-family: $fixed-font-family
-    width: 100%
-    height: 50%
-    display: flex
-    justify-content: center
-    align-items: center
-    text-align: center
-    color: $bio-typing-color
-    @include font-size(24px)
-    font-weight: 300
-    line-height: 1.2
 
 .resourcesImage
-  margin: $auto-margin
-  border-radius: 50%
-  width: 115px
-  display: block
-  position: relative
+  @extend .bioImage

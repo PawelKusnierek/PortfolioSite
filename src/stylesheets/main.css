@@ -11,7 +11,36 @@ html, body {
   display: flex;
 }
 
-.bioHeader {
+.content {
+  background-color: #f9f9f7;
+}
+.content p {
+  font-family: Nunito, sans-serif;
+  padding: 0 30px 30px 30px;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.content p::first-letter {
+  font-size: 150%;
+}
+
+.headerBio, .bioHeader h1, .techStack h1, .resources h1, .other h1 {
+  margin: 35px 0 25px 0;
+  font-family: Nunito, sans-serif;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #edefe8;
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.bioHeader, .techStack, .resources, .other {
   background: #485563;
   background: -webkit-linear-gradient(to right, #29323c, #485563);
   background: linear-gradient(to right, #29323c, #485563);
@@ -22,147 +51,26 @@ html, body {
   width: 40%;
   margin: 100px auto 0 auto;
 }
-.bioHeader h1 {
-  font-family: Nunito, sans-serif;
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #edefe8;
-  font-size: 24px;
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 35px 0 25px 0;
-}
-
-.bioImage {
+.bioImage, .resourcesImage, .otherImage, .techStackImage {
   margin: 0 auto 0 auto;
   border-radius: 50%;
   width: 115px;
   position: relative;
 }
 
-.content {
-  background-color: #f9f9f7;
-}
-.content p {
-  font-family: Nunito, sans-serif;
-  padding: 0 30px 30px 30px;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.2;
-  font-weight: 300;
-}
-.content p::first-letter {
-  font-size: 150%;
-}
-
-.techStack {
-  background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
-  background: linear-gradient(to right, #29323c, #485563);
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  height: 120px;
-  width: 40%;
+.techStack, .resources, .other {
   margin: 0 auto 0 auto;
 }
-.techStack h1 {
-  margin: 35px 0 25px 0;
-  font-family: Nunito, sans-serif;
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #edefe8;
-  font-size: 24px;
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
 .techStackImage {
-  margin: 0 auto 0 auto;
-  border-radius: 50%;
   width: 110px;
-  display: block;
-  position: relative;
-}
-
-.other {
-  background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
-  background: linear-gradient(to right, #29323c, #485563);
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  height: 120px;
-  width: 40%;
-  margin: 0 auto 0 auto;
-}
-.other h1 {
-  margin: 35px 0 25px 0;
-  font-family: Nunito, sans-serif;
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #edefe8;
-  font-size: 24px;
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.2;
 }
 
 .otherImage {
-  margin: 0 auto 0 auto;
-  border-radius: 50%;
   width: 110px;
-  display: block;
-  position: relative;
 }
 
-.resources {
-  background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
-  background: linear-gradient(to right, #29323c, #485563);
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  height: 120px;
-  width: 40%;
-  margin: 0 auto 0 auto;
-}
 .resources h1 {
   margin: 40px 0 23px 0;
-  font-family: Nunito, sans-serif;
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #edefe8;
-  font-size: 24px;
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.resourcesImage {
-  margin: 0 auto 0 auto;
-  border-radius: 50%;
-  width: 115px;
-  display: block;
-  position: relative;
 }
 
 .topHeader {
@@ -282,7 +190,7 @@ a.headerButton:hover {
     height: 150px;
   }
 
-  .bioHeader {
+  .bioHeader, .techStack, .other, .resources {
     margin: 150px auto 0 auto;
     width: 70%;
   }
