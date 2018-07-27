@@ -32,7 +32,7 @@ html, body {
 
 /* line 12, partials/_bio.sass */
 .headerBio, .bioHeader h1, .techStack h1, .other h1, .resources h1 {
-  margin: 35px 0 25px 0;
+  margin: 35px 0 24px 0;
   font-family: Nunito, sans-serif;
   width: 100%;
   height: 50%;
@@ -65,31 +65,32 @@ html, body {
   border-radius: 50%;
   width: 115px;
   position: relative;
+  border: 1px #61635c solid;
 }
 
-/* line 44, partials/_bio.sass */
+/* line 45, partials/_bio.sass */
 .techStack, .other, .resources {
   margin: 0 auto 0 auto;
 }
 
-/* line 50, partials/_bio.sass */
+/* line 51, partials/_bio.sass */
 .techStackImage {
   margin: 10px auto 0 auto;
   width: 110px;
 }
 
-/* line 60, partials/_bio.sass */
+/* line 61, partials/_bio.sass */
 .otherImage {
-  border: 1px #727272 solid;
+  border: 1px #61635c solid;
   width: 110px;
 }
 
-/* line 67, partials/_bio.sass */
+/* line 68, partials/_bio.sass */
 .resources h1 {
   margin: 40px 0 23px 0;
 }
 
-/* line 71, partials/_bio.sass */
+/* line 72, partials/_bio.sass */
 .resourcesImage {
   margin: 5px auto 0 auto;
 }
@@ -117,17 +118,18 @@ html, body {
   border-radius: 50%;
   margin: 10px 0 0 0;
   width: 80px;
+  border: 1px #61635c solid;
 }
 
-/* line 20, partials/_header.sass */
+/* line 21, partials/_header.sass */
 .nameJobWrapper {
   display: inline-block;
-  padding: 20px 0 0 10px;
+  padding: 25px 0 0 10px;
   float: left;
   width: 38%;
 }
 
-/* line 26, partials/_header.sass */
+/* line 27, partials/_header.sass */
 .headerName {
   display: inline-block;
   margin: 0;
@@ -136,7 +138,7 @@ html, body {
   font-size: 1.25rem;
 }
 
-/* line 32, partials/_header.sass */
+/* line 33, partials/_header.sass */
 .headerJob {
   margin: 0;
   font-family: Nunito, sans-serif;
@@ -146,14 +148,14 @@ html, body {
   padding: 0 0 20px 0;
 }
 
-/* line 39, partials/_header.sass */
+/* line 40, partials/_header.sass */
 .contactLinks {
   position: relative;
   display: flex;
   width: 13%;
 }
 
-/* line 44, partials/_header.sass */
+/* line 45, partials/_header.sass */
 .socialIcon {
   flex: 1;
   height: 70%;
@@ -164,46 +166,46 @@ html, body {
   font-size: 1.875rem;
 }
 
-/* line 52, partials/_header.sass */
+/* line 53, partials/_header.sass */
 i.fab {
   margin: 30px 0 0 0;
 }
-/* line 54, partials/_header.sass */
+/* line 55, partials/_header.sass */
 i.fab.right {
   float: right;
   height: 100%;
 }
-/* line 57, partials/_header.sass */
+/* line 58, partials/_header.sass */
 i.fab.left {
   height: 100%;
 }
-/* line 59, partials/_header.sass */
+/* line 60, partials/_header.sass */
 i.fab.centre {
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 63, partials/_header.sass */
+/* line 64, partials/_header.sass */
 i.fab.right:hover {
   color: #3B5998;
 }
-/* line 65, partials/_header.sass */
+/* line 66, partials/_header.sass */
 i.fab.left:hover {
   color: #0077B5;
 }
-/* line 67, partials/_header.sass */
+/* line 68, partials/_header.sass */
 i.fab.centre:hover {
   color: #c9510c;
 }
 
-/* line 70, partials/_header.sass */
+/* line 71, partials/_header.sass */
 .spacer {
   position: relative;
   display: flex;
   width: 19%;
 }
 
-/* line 75, partials/_header.sass */
+/* line 76, partials/_header.sass */
 .headerButtonContainer {
   position: relative;
   display: flex;
@@ -211,7 +213,7 @@ i.fab.centre:hover {
   float: right;
 }
 
-/* line 81, partials/_header.sass */
+/* line 82, partials/_header.sass */
 .headerButton {
   flex: 1;
   flex-direction: column;
@@ -223,19 +225,19 @@ i.fab.centre:hover {
   text-decoration: none;
 }
 
-/* line 91, partials/_header.sass */
+/* line 92, partials/_header.sass */
 i.fas {
   vertical-align: center;
   padding: 30px 0 0 45%;
 }
 
-/* line 95, partials/_header.sass */
+/* line 96, partials/_header.sass */
 span.headerSpan {
   display: block;
   text-align: center;
 }
 
-/* line 99, partials/_header.sass */
+/* line 100, partials/_header.sass */
 a.headerButton:hover {
   background-color: #e1e3dc;
 }
