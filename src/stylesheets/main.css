@@ -74,20 +74,22 @@ html, body {
 
 /* line 50, partials/_bio.sass */
 .techStackImage {
+  margin: 10px auto 0 auto;
   width: 110px;
 }
 
-/* line 59, partials/_bio.sass */
+/* line 60, partials/_bio.sass */
 .otherImage {
+  border: 1px #727272 solid;
   width: 110px;
 }
 
-/* line 65, partials/_bio.sass */
+/* line 67, partials/_bio.sass */
 .resources h1 {
   margin: 40px 0 23px 0;
 }
 
-/* line 69, partials/_bio.sass */
+/* line 71, partials/_bio.sass */
 .resourcesImage {
   margin: 5px auto 0 auto;
 }
