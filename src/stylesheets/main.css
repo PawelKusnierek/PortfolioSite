@@ -219,91 +219,108 @@ a.headerButton:hover {
 }
 
 @media only screen and (max-width: 1150px) {
-  /* line 2, partials/_media.sass */
+  /* line 3, partials/_media.sass */
   .topHeader {
     height: 180px;
   }
 
-  /* line 4, partials/_media.sass */
+  /* line 5, partials/_media.sass */
   .bioHeader, .techStack, .other, .resources {
     margin: 180px auto 0 auto;
     width: 100%;
   }
 
-  /* line 7, partials/_media.sass */
+  /* line 8, partials/_media.sass */
   .nameJobWrapper {
     width: 30%;
     padding: 30px 0 0 20px;
   }
 
-  /* line 10, partials/_media.sass */
+  /* line 11, partials/_media.sass */
   .headerName {
     font-size: 36px;
     font-size: 2.25rem;
   }
 
-  /* line 12, partials/_media.sass */
+  /* line 13, partials/_media.sass */
   .headerJob {
     font-size: 20px;
     font-size: 1.25rem;
   }
 
-  /* line 14, partials/_media.sass */
+  /* line 15, partials/_media.sass */
   .contactLinks {
     width: 35%;
   }
 
-  /* line 16, partials/_media.sass */
+  /* line 17, partials/_media.sass */
   .socialIcon {
     font-size: 46px;
     font-size: 2.875rem;
   }
 
-  /* line 18, partials/_media.sass */
+  /* line 19, partials/_media.sass */
   .spacer {
     width: 0;
   }
 
-  /* line 20, partials/_media.sass */
+  /* line 21, partials/_media.sass */
   .contentWrapper {
     width: 100%;
     margin: 0;
   }
 
-  /* line 23, partials/_media.sass */
+  /* line 24, partials/_media.sass */
   .contactLinks {
     margin: 30px 0 0 0;
   }
 
-  /* line 25, partials/_media.sass */
+  /* line 26, partials/_media.sass */
   .headerButtonContainer {
     margin: 30px 0 0 0;
   }
 
-  /* line 27, partials/_media.sass */
+  /* line 28, partials/_media.sass */
   .headerButton {
     font-size: 24px;
     font-size: 1.5rem;
     padding: 0 15px 0 0;
   }
 
-  /* line 30, partials/_media.sass */
+  /* line 31, partials/_media.sass */
   .headerButtonContainer {
     width: 34%;
   }
 
-  /* line 32, partials/_media.sass */
+  /* line 33, partials/_media.sass */
   .techStack, .other, .resources, .other, .resources {
     width: 100%;
     margin: 0 auto 0 auto;
   }
 
-  /* line 36, partials/_media.sass */
-  .content p {
-    padding: 50px 50px 0 80px;
-  }
   /* line 37, partials/_media.sass */
+  .content p {
+    padding: 60px 50px 0 80px;
+  }
+  /* line 38, partials/_media.sass */
   .content p::first-letter {
     font-size: 200%;
+  }
+
+  /* line 41, partials/_media.sass */
+  .headerBio, .bioHeader h1, .techStack h1, .other h1, .resources h1 {
+    font-size: 50px;
+    font-size: 3.125rem;
+    margin: 75px 0 45px 0;
+  }
+
+  /* line 44, partials/_media.sass */
+  .bioHeader, .techStack, .other, .resources {
+    height: 200px;
+  }
+
+  /* line 46, partials/_media.sass */
+  .bioImage, .techStackImage, .otherImage, .resourcesImage {
+    width: 150px;
   }
 }
