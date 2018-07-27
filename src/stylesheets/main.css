@@ -87,6 +87,11 @@ html, body {
   margin: 40px 0 23px 0;
 }
 
+/* line 69, partials/_bio.sass */
+.resourcesImage {
+  margin: 5px auto 0 auto;
+}
+
 /* line 1, partials/_header.sass */
 .topHeader {
   position: fixed;
@@ -99,14 +104,28 @@ html, body {
 }
 
 /* line 10, partials/_header.sass */
-.nameJobWrapper {
-  display: inline-block;
-  padding: 20px 0 0 40px;
-  float: left;
-  width: 42%;
+.headerImageContainer {
+  padding: 0 0 0 20px;
+  position: relative;
 }
 
-/* line 16, partials/_header.sass */
+/* line 14, partials/_header.sass */
+.headerImage {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 10px 0 0 0;
+  width: 80px;
+}
+
+/* line 20, partials/_header.sass */
+.nameJobWrapper {
+  display: inline-block;
+  padding: 20px 0 0 10px;
+  float: left;
+  width: 38%;
+}
+
+/* line 26, partials/_header.sass */
 .headerName {
   display: inline-block;
   margin: 0;
@@ -115,23 +134,24 @@ html, body {
   font-size: 1.25rem;
 }
 
-/* line 22, partials/_header.sass */
+/* line 32, partials/_header.sass */
 .headerJob {
   margin: 0;
   font-family: Nunito, sans-serif;
   font-size: 14px;
+  font-size: 0.875rem;
   color: #61635c;
   padding: 0 0 20px 0;
 }
 
-/* line 29, partials/_header.sass */
+/* line 39, partials/_header.sass */
 .contactLinks {
   position: relative;
   display: flex;
-  width: 14%;
+  width: 13%;
 }
 
-/* line 34, partials/_header.sass */
+/* line 44, partials/_header.sass */
 .socialIcon {
   flex: 1;
   height: 70%;
@@ -142,46 +162,46 @@ html, body {
   font-size: 1.875rem;
 }
 
-/* line 42, partials/_header.sass */
+/* line 52, partials/_header.sass */
 i.fab {
   margin: 30px 0 0 0;
 }
-/* line 44, partials/_header.sass */
+/* line 54, partials/_header.sass */
 i.fab.right {
   float: right;
   height: 100%;
 }
-/* line 47, partials/_header.sass */
+/* line 57, partials/_header.sass */
 i.fab.left {
   height: 100%;
 }
-/* line 49, partials/_header.sass */
+/* line 59, partials/_header.sass */
 i.fab.centre {
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 53, partials/_header.sass */
+/* line 63, partials/_header.sass */
 i.fab.right:hover {
   color: #3B5998;
 }
-/* line 55, partials/_header.sass */
+/* line 65, partials/_header.sass */
 i.fab.left:hover {
   color: #0077B5;
 }
-/* line 57, partials/_header.sass */
+/* line 67, partials/_header.sass */
 i.fab.centre:hover {
   color: #c9510c;
 }
 
-/* line 60, partials/_header.sass */
+/* line 70, partials/_header.sass */
 .spacer {
   position: relative;
   display: flex;
   width: 19%;
 }
 
-/* line 65, partials/_header.sass */
+/* line 75, partials/_header.sass */
 .headerButtonContainer {
   position: relative;
   display: flex;
@@ -189,7 +209,7 @@ i.fab.centre:hover {
   float: right;
 }
 
-/* line 71, partials/_header.sass */
+/* line 81, partials/_header.sass */
 .headerButton {
   flex: 1;
   flex-direction: column;
@@ -201,19 +221,19 @@ i.fab.centre:hover {
   text-decoration: none;
 }
 
-/* line 81, partials/_header.sass */
+/* line 91, partials/_header.sass */
 i.fas {
   vertical-align: center;
   padding: 30px 0 0 45%;
 }
 
-/* line 85, partials/_header.sass */
+/* line 95, partials/_header.sass */
 span.headerSpan {
   display: block;
   text-align: center;
 }
 
-/* line 89, partials/_header.sass */
+/* line 99, partials/_header.sass */
 a.headerButton:hover {
   background-color: #e1e3dc;
 }
@@ -231,95 +251,100 @@ a.headerButton:hover {
   }
 
   /* line 8, partials/_media.sass */
-  .nameJobWrapper {
-    width: 30%;
-    padding: 30px 0 0 20px;
+  .headerImage {
+    width: 0;
   }
 
-  /* line 11, partials/_media.sass */
+  /* line 10, partials/_media.sass */
+  .nameJobWrapper {
+    width: 30%;
+    padding: 30px 0 0 10px;
+  }
+
+  /* line 13, partials/_media.sass */
   .headerName {
     font-size: 36px;
     font-size: 2.25rem;
   }
 
-  /* line 13, partials/_media.sass */
+  /* line 15, partials/_media.sass */
   .headerJob {
     font-size: 20px;
     font-size: 1.25rem;
   }
 
-  /* line 15, partials/_media.sass */
+  /* line 17, partials/_media.sass */
   .contactLinks {
     width: 35%;
   }
 
-  /* line 17, partials/_media.sass */
+  /* line 19, partials/_media.sass */
   .socialIcon {
     font-size: 46px;
     font-size: 2.875rem;
   }
 
-  /* line 19, partials/_media.sass */
+  /* line 21, partials/_media.sass */
   .spacer {
     width: 0;
   }
 
-  /* line 21, partials/_media.sass */
+  /* line 23, partials/_media.sass */
   .contentWrapper {
     width: 100%;
     margin: 0;
   }
 
-  /* line 24, partials/_media.sass */
+  /* line 26, partials/_media.sass */
   .contactLinks {
     margin: 30px 0 0 0;
   }
 
-  /* line 26, partials/_media.sass */
+  /* line 28, partials/_media.sass */
   .headerButtonContainer {
     margin: 30px 0 0 0;
   }
 
-  /* line 28, partials/_media.sass */
+  /* line 30, partials/_media.sass */
   .headerButton {
     font-size: 24px;
     font-size: 1.5rem;
     padding: 0 15px 0 0;
   }
 
-  /* line 31, partials/_media.sass */
+  /* line 33, partials/_media.sass */
   .headerButtonContainer {
     width: 34%;
   }
 
-  /* line 33, partials/_media.sass */
+  /* line 35, partials/_media.sass */
   .techStack, .other, .resources, .other, .resources {
     width: 100%;
     margin: 0 auto 0 auto;
   }
 
-  /* line 37, partials/_media.sass */
+  /* line 39, partials/_media.sass */
   .content p {
     padding: 60px 50px 0 80px;
   }
-  /* line 38, partials/_media.sass */
+  /* line 40, partials/_media.sass */
   .content p::first-letter {
     font-size: 200%;
   }
 
-  /* line 41, partials/_media.sass */
+  /* line 43, partials/_media.sass */
   .headerBio, .bioHeader h1, .techStack h1, .other h1, .resources h1 {
     font-size: 50px;
     font-size: 3.125rem;
     margin: 75px 0 45px 0;
   }
 
-  /* line 44, partials/_media.sass */
+  /* line 46, partials/_media.sass */
   .bioHeader, .techStack, .other, .resources {
     height: 200px;
   }
 
-  /* line 46, partials/_media.sass */
+  /* line 48, partials/_media.sass */
   .bioImage, .techStackImage, .otherImage, .resourcesImage {
     width: 150px;
   }
