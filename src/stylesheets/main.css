@@ -206,7 +206,7 @@ i.fab.centre:hover {
 }
 
 /* line 76, partials/_header.sass */
-.headerButtonContainer {
+.navigationContainer {
   position: relative;
   display: flex;
   width: 25%;
@@ -305,50 +305,46 @@ a.headerButton:hover {
   }
 
   /* line 28, partials/_media.sass */
-  .headerButtonContainer {
+  .navigationContainer {
     margin: 30px 0 0 0;
+    width: 34%;
   }
 
-  /* line 30, partials/_media.sass */
+  /* line 31, partials/_media.sass */
   .headerButton {
     font-size: 24px;
     font-size: 1.5rem;
     padding: 0 15px 0 0;
   }
 
-  /* line 33, partials/_media.sass */
-  .headerButtonContainer {
-    width: 34%;
-  }
-
-  /* line 35, partials/_media.sass */
+  /* line 34, partials/_media.sass */
   .techStack, .other, .resources, .other, .resources {
     width: 100%;
     margin: 0 auto 0 auto;
   }
 
-  /* line 39, partials/_media.sass */
+  /* line 38, partials/_media.sass */
   .content p {
     padding: 60px 50px 0 80px;
   }
-  /* line 40, partials/_media.sass */
+  /* line 39, partials/_media.sass */
   .content p::first-letter {
     font-size: 200%;
   }
 
-  /* line 43, partials/_media.sass */
+  /* line 42, partials/_media.sass */
   .headerBio, .bioHeader h1, .techStack h1, .other h1, .resources h1 {
     font-size: 50px;
     font-size: 3.125rem;
     margin: 75px 0 45px 0;
   }
 
-  /* line 46, partials/_media.sass */
+  /* line 45, partials/_media.sass */
   .bioHeader, .techStack, .other, .resources {
     height: 200px;
   }
 
-  /* line 48, partials/_media.sass */
+  /* line 47, partials/_media.sass */
   .bioImage, .techStackImage, .otherImage, .resourcesImage {
     width: 150px;
   }
