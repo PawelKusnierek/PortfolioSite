@@ -1,27 +1,39 @@
-@media only screen and (max-width: 1200px)
-    .topHeader
-        height: 150px
-    .bioHeader
-        margin: 150px auto 0 auto
-        width: 70%
-    .nameJobWrapper
-        width: 35%
-        padding: 50px 0 0 40px
-    .contactLinks
-        width: 25%
-    .spacer
-        width: 4%
-    .contentWrapper
-        width: 70%
-        margin: 0 15% 0 15%
-    .contactLinks, .headerButtonContainer
-        margin: 35px 0 0 0
-    .headerButton
-        @include font-size(22px)
-    .headerButtonContainer
-        width: 35%
-    i.fas
-        padding: 20px 0 0 45%
-    .techStack, .other, .resources
-        width: 70%
-        margin: $auto-margin
+@media only screen and (max-width: 1150px)
+  .topHeader
+    height: 180px
+  .bioHeader
+    margin: 180px auto 0 auto
+    width: 100%
+  .nameJobWrapper
+    width: 30%
+    padding: 30px 0 0 20px
+  .headerName
+    @include font-size(36px)
+  .headerJob
+    @include font-size(20px)
+  .contactLinks
+    width: 35%
+  .socialIcon
+    @include font-size(46px)
+  .spacer
+    width: 0
+  .contentWrapper
+    width: 100%
+    margin: 0
+  .contactLinks
+    margin: 30px 0 0 0
+  .headerButtonContainer
+    margin: 30px 0 0 0
+  .headerButton
+    @include font-size(24px)
+    padding: 0 15px 0 0
+  .headerButtonContainer
+    width: 34%
+  .techStack, .other, .resources
+    width: 100%
+    margin: $auto-margin
+  .content
+    p
+      &::first-letter
+        font-size: 200%
+      padding: 50px 50px 0 80px
