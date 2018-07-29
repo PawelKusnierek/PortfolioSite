@@ -1,5 +1,6 @@
 .content
   background-color: $bio-background-text-color
+  width: 100%
   p
     &::first-letter
       font-size: 150%
@@ -73,12 +74,28 @@
   @extend .bioImage
   margin: 5px auto 0 auto
 
-.grid-container
-  display: grid
-  height: 100%
-  width: 33%
-  grid-template-columns: 1fr 1fr 1fr
-  grid-template-rows: 1fr 1fr 1fr
-  grid-template-areas: ". . ." ". . ." ". . ."
-  grid-gap: 10px
+.flex-container
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: flex-start
+  align-content: flex-start
+  align-items: flex-start
+  margin: 70px 0 0 0
 
+.flex-item
+  width: 25%
+  order: 0
+  flex: 0 1 auto
+  align-self: auto
+  padding: 15px 0 15px 0
+  text-align: center
+  font-family: $fixed-font-family
+  font-weight: 400
+
+.technologyImage
+  margin: $auto-margin
+  width: 120px
+  height: 120px
