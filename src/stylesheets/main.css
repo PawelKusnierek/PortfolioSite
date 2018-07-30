@@ -335,10 +335,9 @@ a.headerButton:hover {
 /* line 18, partials/_footer.sass */
 .footerPreferencesContainer {
   width: 50%;
-  border: 1px solid red;
 }
 
-/* line 22, partials/_footer.sass */
+/* line 21, partials/_footer.sass */
 .footerQuestions {
   display: inline-block;
   font-family: Nunito, sans-serif;
@@ -347,7 +346,7 @@ a.headerButton:hover {
   color: #44463f;
 }
 
-/* line 28, partials/_footer.sass */
+/* line 27, partials/_footer.sass */
 .footerContact {
   font-family: Nunito, sans-serif;
   font-size: 18px;
@@ -356,9 +355,28 @@ a.headerButton:hover {
   color: #44463f;
 }
 
-/* line 34, partials/_footer.sass */
+/* line 33, partials/_footer.sass */
 p.footerContact {
   display: block;
+}
+
+/* line 36, partials/_footer.sass */
+.languageContainer {
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #44463f;
+  margin: 0 15px 0 0;
+}
+
+/* line 44, partials/_footer.sass */
+.languageFlag {
+  margin: 0 auto 0 auto;
+  width: 70px;
+  height: 40px;
+  padding: 0 15px 0 15px;
 }
 
 @media only screen and (max-width: 1150px) {
