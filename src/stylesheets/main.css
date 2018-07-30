@@ -135,7 +135,7 @@ html, body {
   margin: 0 30px 0 20px;
 }
 
-/* line 107, partials/_bio.sass */
+/* line 108, partials/_bio.sass */
 .resourcesLink {
   font-family: Nunito, sans-serif;
   text-decoration: none;
@@ -144,8 +144,12 @@ html, body {
   font-size: 1.25rem;
   padding: 5px 0 5px 0;
 }
-
 /* line 114, partials/_bio.sass */
+.resourcesLink:hover {
+  color: #e79700;
+}
+
+/* line 117, partials/_bio.sass */
 .resourcesText {
   font-family: Nunito, sans-serif;
   text-decoration: none;
