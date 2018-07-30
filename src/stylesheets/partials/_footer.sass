@@ -3,9 +3,33 @@
   left: 0
   bottom: 0
   width: 100%
-  color: white
   text-align: center
   height: $footer-header-height
   display: flex
   background-color: $header-background-color
   z-index: 100000
+
+.footerContactContainer
+  width: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+
+.footerPreferencesContainer
+  width: 50%
+  border: 1px solid red
+
+.footerQuestions
+  display: inline-block
+  font-family: $fixed-font-family
+  @include font-size(18px)
+  color: $bio-para-typing-color
+
+.footerContact
+  font-family: $fixed-font-family
+  @include font-size(18px)
+  padding: 0 0 0 10px
+  color: $bio-para-typing-color
+
+p.footerContact
+  display: block

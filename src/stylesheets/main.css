@@ -317,12 +317,48 @@ a.headerButton:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
   text-align: center;
   height: 100px;
   display: flex;
   background-color: #edefe8;
   z-index: 100000;
+}
+
+/* line 12, partials/_footer.sass */
+.footerContactContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 18, partials/_footer.sass */
+.footerPreferencesContainer {
+  width: 50%;
+  border: 1px solid red;
+}
+
+/* line 22, partials/_footer.sass */
+.footerQuestions {
+  display: inline-block;
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #44463f;
+}
+
+/* line 28, partials/_footer.sass */
+.footerContact {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  padding: 0 0 0 10px;
+  color: #44463f;
+}
+
+/* line 34, partials/_footer.sass */
+p.footerContact {
+  display: block;
 }
 
 @media only screen and (max-width: 1150px) {
