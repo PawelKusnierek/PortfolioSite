@@ -28,8 +28,8 @@ html, body {
   font-family: Nunito, sans-serif;
   color: #44463f;
   padding: 10px 30px 10px 30px;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
   line-height: 1.4;
 }
@@ -47,8 +47,8 @@ html, body {
   align-items: center;
   text-align: center;
   color: #edefe8;
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 300;
 }
 
@@ -459,5 +459,16 @@ p.footerContact {
   /* line 46, partials/_media.sass */
   .bioImage {
     width: 150px;
+  }
+
+  /* line 48, partials/_media.sass */
+  .flex-item {
+    width: 33%;
+  }
+
+  /* line 50, partials/_media.sass */
+  .technologyImage {
+    width: 160px;
+    height: 160px;
   }
 }
