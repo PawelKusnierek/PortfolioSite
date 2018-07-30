@@ -337,6 +337,11 @@ p.footerContact {
 }
 
 /* line 36, partials/_footer.sass */
+.languageText {
+  margin: 10px 0 10px 0;
+}
+
+/* line 39, partials/_footer.sass */
 .languageContainer {
   display: inline-block;
   float: right;
@@ -347,7 +352,7 @@ p.footerContact {
   margin: 0 15px 0 0;
 }
 
-/* line 44, partials/_footer.sass */
+/* line 47, partials/_footer.sass */
 .languageFlag {
   margin: 0 auto 0 auto;
   width: 70px;
