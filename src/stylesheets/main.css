@@ -6,6 +6,11 @@ html, body {
 }
 
 /* line 6, partials/_base.sass */
+.mainWrapper {
+  padding-bottom: 100px;
+}
+
+/* line 10, partials/_base.sass */
 .contentWrapper {
   width: 40%;
   border-radius: 5px;
@@ -304,6 +309,20 @@ span.headerSpan {
 /* line 100, partials/_header.sass */
 a.headerButton:hover {
   background-color: #e1e3dc;
+}
+
+/* line 1, partials/_footer.sass */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  background-color: #edefe8;
+  z-index: 100000;
 }
 
 @media only screen and (max-width: 1150px) {
