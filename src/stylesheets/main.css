@@ -27,7 +27,7 @@ html, body {
 .content p {
   font-family: Nunito, sans-serif;
   color: #44463f;
-  padding: 50px 30px 10px 30px;
+  padding: 10px 30px 10px 30px;
   font-size: 16px;
   font-size: 1rem;
   font-weight: 300;
@@ -40,10 +40,8 @@ html, body {
 
 /* line 15, partials/_bio.sass */
 .headerBio, .bioHeader h1, .techStack h1, .other h1, .resources h1 {
-  margin: 35px 0 24px 0;
   font-family: Nunito, sans-serif;
   width: 100%;
-  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +52,7 @@ html, body {
   font-weight: 300;
 }
 
-/* line 28, partials/_bio.sass */
+/* line 26, partials/_bio.sass */
 .bioHeader, .techStack, .other, .resources {
   background: #485563;
   background: -webkit-linear-gradient(to right, #29323c, #485563);
@@ -62,13 +60,13 @@ html, body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  height: 120px;
+  height: 60px;
   width: 40%;
   margin: 100px auto 0 auto;
 }
 
-/* line 41, partials/_bio.sass */
-.bioImage, .techStackImage, .otherImage, .resourcesImage {
+/* line 40, partials/_bio.sass */
+.bioImage {
   margin: 0 auto 0 auto;
   border-radius: 50%;
   width: 115px;
@@ -76,34 +74,12 @@ html, body {
   border: 1px #61635c solid;
 }
 
-/* line 48, partials/_bio.sass */
+/* line 47, partials/_bio.sass */
 .techStack, .other, .resources {
   margin: 0 auto 0 auto;
 }
 
-/* line 54, partials/_bio.sass */
-.techStackImage {
-  margin: 10px auto 0 auto;
-  width: 110px;
-}
-
-/* line 64, partials/_bio.sass */
-.otherImage {
-  border: 1px #61635c solid;
-  width: 110px;
-}
-
-/* line 71, partials/_bio.sass */
-.resources h1 {
-  margin: 40px 0 23px 0;
-}
-
-/* line 75, partials/_bio.sass */
-.resourcesImage {
-  margin: 5px auto 0 auto;
-}
-
-/* line 79, partials/_bio.sass */
+/* line 63, partials/_bio.sass */
 .flex-container {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -113,10 +89,10 @@ html, body {
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  margin: 70px 0 0 0;
+  margin: 20px 0 20px 0;
 }
 
-/* line 90, partials/_bio.sass */
+/* line 74, partials/_bio.sass */
 .flex-item {
   width: 25%;
   order: 0;
@@ -128,19 +104,19 @@ html, body {
   font-weight: 400;
 }
 
-/* line 100, partials/_bio.sass */
+/* line 84, partials/_bio.sass */
 .technologyImage {
   margin: 0 auto 0 auto;
   width: 120px;
   height: 120px;
 }
 
-/* line 105, partials/_bio.sass */
+/* line 89, partials/_bio.sass */
 .resourcesContainer {
   margin: 0 30px 0 20px;
 }
 
-/* line 108, partials/_bio.sass */
+/* line 92, partials/_bio.sass */
 .resourcesLink {
   font-family: Nunito, sans-serif;
   text-decoration: none;
@@ -149,12 +125,12 @@ html, body {
   font-size: 1.25rem;
   padding: 5px 0 5px 0;
 }
-/* line 114, partials/_bio.sass */
+/* line 98, partials/_bio.sass */
 .resourcesLink:hover {
   color: #e79700;
 }
 
-/* line 117, partials/_bio.sass */
+/* line 101, partials/_bio.sass */
 .resourcesText {
   font-family: Nunito, sans-serif;
   text-decoration: none;
@@ -462,7 +438,7 @@ p.footerContact {
 
   /* line 38, partials/_media.sass */
   .content p {
-    padding: 60px 50px 0 80px;
+    padding: 10px 50px 0 40px;
   }
   /* line 39, partials/_media.sass */
   .content p::first-letter {
@@ -471,18 +447,17 @@ p.footerContact {
 
   /* line 42, partials/_media.sass */
   .headerBio, .bioHeader h1, .techStack h1, .other h1, .resources h1 {
-    font-size: 50px;
-    font-size: 3.125rem;
-    margin: 75px 0 45px 0;
+    font-size: 60px;
+    font-size: 3.75rem;
   }
 
-  /* line 45, partials/_media.sass */
+  /* line 44, partials/_media.sass */
   .bioHeader, .techStack, .other, .resources {
-    height: 200px;
+    height: 120px;
   }
 
-  /* line 47, partials/_media.sass */
-  .bioImage, .techStackImage, .otherImage, .resourcesImage {
+  /* line 46, partials/_media.sass */
+  .bioImage {
     width: 150px;
   }
 }

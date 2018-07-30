@@ -6,17 +6,15 @@
       font-size: 150%
     font-family: $fixed-font-family
     color: $bio-para-typing-color
-    padding: 50px 30px 10px 30px
+    padding: 10px 30px 10px 30px
     @include font-size(16px)
     font-weight: 300
     line-height: 1.4
 
 //class for h1 elements to be extended in each bio section
 .headerBio
-  margin: 35px 0 24px 0
   font-family: $fixed-font-family
   width: 100%
-  height: 50%
   display: flex
   justify-content: center
   align-items: center
@@ -32,12 +30,13 @@
   display: flex
   flex: 1
   flex-direction: column
-  height: 120px
+  height: 60px
   width: 40%
   margin: 100px auto 0 auto
   h1
     @extend .headerBio
 
+//atm unused - was used as a circular image in bio section - to be reused in the future
 .bioImage
   margin: $auto-margin
   border-radius: 50%
@@ -51,30 +50,15 @@
   h1
     @extend .headerBio
 
-.techStackImage
-  @extend .bioImage
-  margin: 10px auto 0 auto
-  width: 110px
-
 .other
   @extend .techStack
   h1
     @extend .headerBio
 
-.otherImage
-  @extend .bioImage
-  border: 1px $header-typing-color solid
-  width: 110px
-
 .resources
   @extend .techStack
   h1
     @extend .headerBio
-    margin: 40px 0 23px 0
-
-.resourcesImage
-  @extend .bioImage
-  margin: 5px auto 0 auto
 
 .flex-container
   display: -ms-flexbox
@@ -85,7 +69,7 @@
   justify-content: flex-start
   align-content: flex-start
   align-items: flex-start
-  margin: 70px 0 0 0
+  margin: 20px 0 20px 0
 
 .flex-item
   width: 25%
