@@ -577,6 +577,6 @@ p.footerContact {
 
   /* line 70, partials/_media.sass */
   .resourcesText {
-    font-weight: normal;
+    font-weight: 400;
   }
 }
