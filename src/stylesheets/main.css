@@ -390,17 +390,32 @@ p.footerContact {
 
 /* line 1, partials/_portfolio.sass */
 .portfolioContent {
-  display: flex;
-  flex-direction: column;
   height: 100%;
   background-color: #f9f9f7;
   width: 100%;
 }
 
-/* line 8, partials/_portfolio.sass */
+/* line 6, partials/_portfolio.sass */
 .portfolioItem {
   width: 100%;
   border: 1px red solid;
+}
+
+/* line 1, partials/_contact.sass */
+.contactContent {
+  height: 100%;
+  background-color: #f9f9f7;
+  width: 100%;
+}
+/* line 5, partials/_contact.sass */
+.contactContent p {
+  font-family: Nunito, sans-serif;
+  color: #44463f;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -546,10 +561,17 @@ p.footerContact {
     width: 25%;
   }
 
-  /* line 64, partials/_media.sass */
+  /* line 63, partials/_media.sass */
   .resourcesLink, .resourcesText {
     font-size: 30px;
     font-size: 1.875rem;
     padding: 10px 0 10px 0;
+  }
+
+  /* line 67, partials/_media.sass */
+  .contactContent p {
+    font-size: 40px;
+    font-size: 2.5rem;
+    padding: 10px 50px 0 40px;
   }
 }
